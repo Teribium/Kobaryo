@@ -57,4 +57,4 @@ async def st(ctx):
     id = ctx.message.server.id
     players[id].stop()
 
-client.run(TOKEN)
+client.run(os.getenv('TOKEN'))
