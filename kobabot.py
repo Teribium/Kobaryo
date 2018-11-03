@@ -21,7 +21,7 @@ async def on_ready():
     print('TR-002 is booting...')
 
 @client.command()
-async def kobaryo():
+async def kobaryohelp():
     await client.say('J to Join, L to Leave, P to Play, PS to Pause, ST to Stop and RS to Resume.')
 
 @client.command(pass_context=True)
