@@ -5,6 +5,7 @@ import asyncio
 import time
 import os
 
+TOKEN = 'NTA3OTMwMjcyMzE5MTQzOTQ5.Dr33Kw.jQZ7FA-Ur89dB6UHOcI7_jGfMOw'
 client = commands.Bot(command_prefix = ';')
 
 players = {}
